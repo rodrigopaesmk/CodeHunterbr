@@ -1,0 +1,48 @@
+.btn {
+  display: inline-block;
+  position: relative;
+  padding: 8px 40px 8px 40px;
+  overflow: hidden;
+  width: 88px;
+  height: 24px;
+  background-color: #BA69F3;
+  color: #ffff;
+  font-weight: 500;
+}
+
+.btn span{
+  position: absolute;
+  width: 100%;
+  left: 20;
+  transform: translateY(-50%);
+  transition: top 0.5s;
+}
+
+.btn .text-one {
+  top: 50%;
+}
+
+.text-two {
+  top: 150%;
+}
+
+.btn:hover .text-one {
+  top: -100%;
+}
+
+.btn:hover .text-two {
+  top: 50%;
+}
+
+/*Posicionamento do Botão*/
+
+.container-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+}
