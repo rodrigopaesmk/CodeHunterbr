@@ -1,0 +1,17 @@
+
+/* precisa exporta a imagem com o tamanho maximo de w-100px h-100px*/
+
+body {
+  cursor: url(img/codehunter.png), auto;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #1a1a1a;
+
+}
